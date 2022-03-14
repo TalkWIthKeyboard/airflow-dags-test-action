@@ -4,7 +4,7 @@ Validate and test DAGs, before deploying to production by creating an isolated A
 
 Currently supporting only Airflow v1.10.15.
 
-![Main CI/CD Pipeline](https://github.com/micael-grilo/airflow-dags-test-action/workflows/Main%20CI/CD%20Pipeline/badge.svg)
+[![Main CI/CD Pipeline](https://github.com/TalkWIthKeyboard/airflow-dags-test-action/actions/workflows/main.yml/badge.svg)](https://github.com/TalkWIthKeyboard/airflow-dags-test-action/actions/workflows/main.yml)
 
 ## Usage
 
@@ -21,7 +21,7 @@ Place in a `.yml` file such as this one in your `.github/workflows` folder. [Ref
 
 ```yml
 - name: 'Test Airflow DAGs'
-  uses: micael-grilo/airflow-dags-test-action@master
+  uses: TalkWIthKeyboard/airflow-dags-test-action@master
     with:
       requirements-file: project/requirements.txt
       dags-path: project/dags
@@ -31,7 +31,7 @@ Place in a `.yml` file such as this one in your `.github/workflows` folder. [Ref
 
 ## Contributions
 
-Inspired by [jayamanikharyono](https://github.com/jayamanikharyono/airflow-dag-action) airflow-dag-action.
+Inspired by [micael-grilo](https://github.com/micael-grilo/airflow-dags-test-action) airflow-dag-action.
 
 Contributions are very welcome. You can follow this standard [contributions guidelines](https://github.com/firstcontributions/first-contributions) to contribute code.
 

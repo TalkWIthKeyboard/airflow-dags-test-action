@@ -1,4 +1,4 @@
-name: "Airflow DAGs Test"
+name: "Airflow v1.10 DAGs Test"
 author: TalkWithKeyboard
 description: "Validate and test Airflow DAGs on your workflows."
 branding:
