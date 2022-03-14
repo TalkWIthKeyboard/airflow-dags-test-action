@@ -2,7 +2,7 @@
 
 Validate and test DAGs, before deploying to production by creating an isolated Airflow on Docker Container with supplied variables and dependencies.
 
-Currently supporting only Airflow v2.0.2.
+Currently supporting only Airflow v1.10.15.
 
 ![Main CI/CD Pipeline](https://github.com/micael-grilo/airflow-dags-test-action/workflows/Main%20CI/CD%20Pipeline/badge.svg)
 
@@ -30,10 +30,10 @@ Place in a `.yml` file such as this one in your `.github/workflows` folder. [Ref
 ```
 
 ## Contributions
+
 Inspired by [jayamanikharyono](https://github.com/jayamanikharyono/airflow-dag-action) airflow-dag-action.
 
 Contributions are very welcome. You can follow this standard [contributions guidelines](https://github.com/firstcontributions/first-contributions) to contribute code.
-
 
 ## License
 
